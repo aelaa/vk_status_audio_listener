@@ -5,6 +5,7 @@ body {
 }
 
 a {
+  padding-left: 30px;
   color: #2B587A;
   text-decoration: none;
 
@@ -31,50 +32,6 @@ $popup-width: 450px;
 
 .popup {
   width: $popup-width;
-
-  #clean-up {
-    display: none;
-  }
-
-  header {
-    background: #E1E7ED;
-    color: #45688E;
-    height: 30px;
-    line-height: 30px;
-    padding: 0;
-    font-weight: bold;
-    box-shadow: 0px 1px 2px #999;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-
-    span {
-      padding: 0 12px;
-    }
-
-    .pull-right {
-      padding: 0 12px;
-
-      span {
-        padding: 0 6px;
-        text-decoration: none;
-
-        &:last-child {
-          padding-right: 0;
-        }
-
-        &:hover {
-          color: #555;
-        }
-
-        i {
-          font-size: 16px;
-          line-height: 32px;
-        }
-      }
-    }
-  }
 
   #wrapper {
     padding-top: 30px;
