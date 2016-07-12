@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
 
-    "name": "Оповещения VK",
-    "description": "Оповещает о новых сообщениях на стене в выбранных группах.",
-    "homepage_url": "https://github.com/jastkand/vk-notifications",
+    "name": "VK Status",
+    "description": "Checks Louchan VK status for audio streaming",
+    "homepage_url": "https://github.com/aelaa/vk-status",
     "version": "1.0.5",
 
     "permissions": [ "contextMenus", "tabs", "storage" , "alarms", "http://*/*", "https://*/*" ],

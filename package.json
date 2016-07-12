@@ -1,7 +1,7 @@
 {
-  "name": "vk-notifications",
-  "version": "1.0.5",
-  "description": "Adds notifications about new post in groups.",
+  "name": "vk-status-check",
+  "version": "1.0.0",
+  "description": "Checks VK status",
   "dependencies": {
     "emoji": "^0.3.2",
     "es6-promise": "^3.0.2",
@@ -36,14 +36,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jastkand/vk-notifications.git"
+    "url": "git://github.com/aelaa/vk-status.git"
   },
-  "author": "Andrey Krivko <jastkand@gmail.com>",
+  "author": "Ilya Shakirov <aelaau@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jastkand/vk-notifications/issues"
-  },
-  "homepage": "https://github.com/jastkand/vk-notifications",
+  "homepage": "https://github.com/aelaa/vk-status",
   "scripts": {
     "clean": "rimraf public/*",
     "prebuild": "npm run clean -s",
